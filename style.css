@@ -1,0 +1,56 @@
+body {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    background-color: #ff7675;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+#timer {
+    font-size: 5rem;
+    margin: 20px 0;
+    font-weight: 600;
+}
+
+.buttons button,
+.preset-buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    background-color: #74b9ff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.buttons button:hover,
+.preset-buttons button:hover {
+    background-color: #0984e3;
+}
+
+.music {
+    margin-top: 30px;
+}
+
+footer {
+    background-color: #dfe6e9;
+    padding: 10px;
+    margin-top: 30px;
+}

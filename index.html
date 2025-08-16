@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Lo-Fi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Google Fonts para visual mais clean -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>⏳ Pomodoro Lo-Fi</h1>
+        <p>Foque no que importa, com música Lo-Fi</p>
+    </header>
+
+    <main>
+        <div id="timer">25:00</div>
+        <div class="buttons">
+            <button onclick="startTimer()">Iniciar</button>
+            <button onclick="pauseTimer()">Pausar</button>
+            <button onclick="resetTimer()">Resetar</button>
+        </div>
+
+        <div class="preset-buttons">
+            <button onclick="setTimer(25)">Pomodoro (25 min)</button>
+            <button onclick="setTimer(5)">Pausa curta (5 min)</button>
+            <button onclick="setTimer(15)">Pausa longa (15 min)</button>
+        </div>
+
+        <div class="music">
+            <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/jfKfPfyJRdk?autoplay=1&loop=1"
+                frameborder="0"
+                allow="autoplay; encrypted-media"
+                allowfullscreen></iframe>
+        </div>
+    </main>
+
+    <footer>
+        <p>Feito com ❤️ | <a href="#">Versão Premium sem anúncios</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
